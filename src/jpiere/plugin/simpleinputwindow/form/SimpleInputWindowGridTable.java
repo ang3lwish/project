@@ -116,7 +116,7 @@ public class SimpleInputWindowGridTable extends AbstractTableModel {
 	 *  @param index index
 	 *  @return GridField
 	 */
-	protected GridField getField (int index)
+	public GridField getField (int index)
 	{
 		if (index < 0 || index >= gridFields.length)
 			return null;
